@@ -38,6 +38,17 @@
       <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
     <bool name="config_dynamic_bind_ims">true</bool>
 
+      <!-- Show a custom view for FOD -->
+     <bool name="config_needCustomFODView">true</bool>
+
+     <!-- Whether device supports variable refresh rate -->
+     <bool name="config_hasVariableRefreshRate">true</bool>
+      <!-- Default setting for refresh rate
+      0 = Auto
+      1 = 60HZ
+     2 = 90Hz -->
+    <integer name="config_defaultVariableRefreshRateSetting">2</integer>
+
 
     <!-- Whether WiFi display is supported by this device.
          There are many prerequisites for this feature to work correctly.
